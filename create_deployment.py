@@ -8,7 +8,7 @@ if __name__ == "__main__":
         source=SOURCE_REPO,
         entrypoint="my_workflow.py:main", # Specific flow to run
     ).deploy(
-        name="my-first-deployment",
-        work_pool_name="my-work-pool",
+        name="BLueStarsOnPrefectCloud",
+        work_pool_name="New Work Pools",
         cron="0 * * * *",  # Run every hour
     )
