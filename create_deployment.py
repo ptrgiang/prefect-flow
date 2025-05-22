@@ -1,7 +1,7 @@
 from prefect import flow
 
 # Source for the code to deploy (here, a GitHub repo)
-SOURCE_REPO="git@github.com:ptrgiang/prefect-flow.git"
+SOURCE_REPO="https://github.com/ptrgiang/prefect-flow.git"
 
 if __name__ == "__main__":
     flow.from_source(
